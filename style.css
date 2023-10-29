@@ -1,0 +1,375 @@
+
+*{
+    /* padding: 0; */
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+
+.Navbar{
+    display: flex;
+    height: 60px;
+    background-color: #131921;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+.navlogo{
+    background-image: url(./image/amazon_logo.png);
+    width: 110px;
+    height: 60px;
+    background-size: cover;
+}
+.border{
+    border: 1px solid transparent;    
+}
+
+.border:hover{
+    border: 1px solid white;
+}
+
+.box2{
+    margin: 4px;
+    }
+
+.location{
+    display: flex;
+
+}
+
+.Delevering{
+    margin-left: 1rem;
+    font-size: 0.8rem;
+    color: #fff;
+}
+
+.Update{
+    margin-left: 0.3rem;
+    font-size: 14px;
+    color: #ccc;
+}
+
+.option1{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+}
+.search{
+    margin-left: 0px;
+    padding-left: 0px;
+    width: 25rem;
+    font-size: 1rem;
+    border: none;
+   
+}
+.searchicon{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ border: none;
+ margin: auto;
+}
+
+.searchbar{
+    display: flex;
+    width: 30rem;
+    height: 2.5rem;
+    background-color: rgb(254,189,105);
+    border-radius: 5px;
+    border: none;
+
+}
+
+.flag{
+    padding-left: 1rem;
+}
+
+.hello{
+    font-size: 0.8rem;
+    margin-left: 0.5rem;
+}
+.hello2{
+    font-size: 0.9rem;
+    font: bold;
+    font-weight: bold;
+}
+.card{
+    margin-left: 0.5rem;
+    display: flex;
+    margin-top: 1rem;
+}
+.card p{
+    margin-left: 0.2rem;
+}
+
+.Navbar > div {
+    margin: 0 1rem; /* Add left and right margin for spacing */
+}
+
+/* Style the i element with the "cart-icon" class */
+i.bag {
+    /* Your custom styles for the icon here */
+    margin-top: 0.5rem;
+}
+
+ /* nal bar second */
+
+.nav2 {
+    width: 100%;
+    background-color: rgb(35, 47, 62);
+    height: 39px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    padding: 0 7px;
+    color: white;
+    font-size: 15px;
+    border: none;
+    
+ }
+ 
+ .nav2all{
+    display: flex;
+ }
+
+ .option2{
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-weight: bold;
+ }
+                                
+.indian_festival{
+    display: flex;
+}
+.nav2 div {
+    margin: 0 0.7rem;
+}
+.shop_nov{
+    padding-top: 0.5rem;
+}
+
+.image-section {
+    position: relative;
+}
+
+.image-text {
+    position: absolute;
+    top: 17rem;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background color */
+    color: #fff; /* Text color */
+    
+}
+.cashback {
+    position: absolute;
+    top: 33rem;
+    left: 50%;
+    border-left: 6px solid white;    
+    border-right: 6px solid white;    
+    background-color: #fff;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background color */
+    color: #fff; /* Text color */
+    
+}
+
+.random{
+  
+    background-color: aqua;
+    height: 500px;
+    margin-top: 20px;
+    border: 2px solid black;
+}
+
+.phone1{
+    width: 300px;
+    height: 150px;
+    margin: 2px;
+    border: 2px solid black;
+    
+
+}
+.mobilebox{
+    overflow: scroll;
+    display: flex;
+}
+.image-container div{
+    margin-top: 20px;
+    padding: 0px 50px 10px 50px ;
+
+}
+.image-container div:hover{
+    transition: transform 0.8s;
+}
+.image-container div:hover{
+    /* border: 2px solid rgba(243, 103, 103, 0.418); */
+    transform: scale(1.1);
+    /* box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
+}
+.image-container {
+    display: flex;
+    width: 100%;
+    overflow-x: scroll;
+    white-space: nowrap;
+}
+
+.image-container::-webkit-scrollbar {
+    height: 12px;
+}
+
+.image-container::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 6px;
+}
+
+.image-container::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 6px;
+}
+
+.image {
+    display: inline-block;
+    
+}
+
+/* Buton */
+.checkbox-wrapper-5{
+    display: flex;
+    justify-content: center;
+    /* margin: 5px; */
+    margin-bottom: 0px;
+    background-color: #888;
+}
+
+  .checkbox-wrapper-5 .check {
+    --size: 40px;
+
+    position: relative;
+    background: linear-gradient(90deg, #f19af3, #f099b5);
+    line-height: 0;
+    perspective: 400px;
+    font-size: var(--size);
+  }
+
+  .checkbox-wrapper-5 .check input[type="checkbox"],
+  .checkbox-wrapper-5 .check label,
+  .checkbox-wrapper-5 .check label::before,
+  .checkbox-wrapper-5 .check label::after,
+  .checkbox-wrapper-5 .check {
+    appearance: none;
+    display: inline-block;
+    border-radius: var(--size);
+    border: 0;
+    transition: .35s ease-in-out;
+    box-sizing: border-box;
+    cursor: pointer;
+  }
+
+  .checkbox-wrapper-5 .check label {
+    width: calc(2.2 * var(--size));
+    height: var(--size);
+    background: #d7d7d7;
+    overflow: hidden;
+  }
+
+  .checkbox-wrapper-5 .check input[type="checkbox"] {
+    position: absolute;
+    z-index: 1;
+    width: calc(.8 * var(--size));
+    height: calc(.8 * var(--size));
+    top: calc(.1 * var(--size));
+    left: calc(.1 * var(--size));
+    background: linear-gradient(45deg, #dedede, #ffffff);
+    box-shadow: 0 6px 7px rgba(0,0,0,0.3);
+    outline: none;
+    margin: 0;
+  }
+
+  .checkbox-wrapper-5 .check input[type="checkbox"]:checked {
+    left: calc(1.3 * var(--size));
+  }
+
+  .checkbox-wrapper-5 .check input[type="checkbox"]:checked + label {
+    background: transparent;
+  }
+
+  .checkbox-wrapper-5 .check label::before,
+  .checkbox-wrapper-5 .check label::after {
+    content: "· ·";
+    position: absolute;
+    overflow: hidden;
+    left: calc(.15 * var(--size));
+    top: calc(.5 * var(--size));
+    height: var(--size);
+    letter-spacing: calc(-0.04 * var(--size));
+    color: #9b9b9b;
+    font-family: "Times New Roman", serif;
+    z-index: 2;
+    font-size: calc(.6 * var(--size));
+    border-radius: 0;
+    transform-origin: 0 0 calc(-0.5 * var(--size));
+    backface-visibility: hidden;
+  }
+
+  .checkbox-wrapper-5 .check label::after {
+    content: "●";
+    top: calc(.65 * var(--size));
+    left: calc(.2 * var(--size));
+    height: calc(.1 * var(--size));
+    width: calc(.35 * var(--size));
+    font-size: calc(.2 * var(--size));
+    transform-origin: 0 0 calc(-0.4 * var(--size));
+  }
+
+  .checkbox-wrapper-5 .check input[type="checkbox"]:checked + label::before,
+  .checkbox-wrapper-5 .check input[type="checkbox"]:checked + label::after {
+    left: calc(1.55 * var(--size));
+    top: calc(.4 * var(--size));
+    line-height: calc(.1 * var(--size));
+    transform: rotateY(360deg);
+  }
+
+  .checkbox-wrapper-5 .check input[type="checkbox"]:checked + label::after {
+    height: calc(.16 * var(--size));
+    top: calc(.55 * var(--size));
+    left: calc(1.6 * var(--size));
+    font-size: calc(.6 * var(--size));
+    line-height: 0;
+  }
+ .container{
+    
+ }
+ .row{
+     
+     display: flex;
+     justify-content: space-evenly;
+     padding-bottom: 20px;
+ }
+footer div ul li a {
+    color: #131921;
+    list-style: none;
+    font-weight: 300;
+    margin-top: 15px;
+    text-decoration: none;
+    
+}
+footer div ul li {
+    list-style: none;
+}
+
+.container{
+    background-color: #888;
+}
+
+.copyright{
+    background-color: #888;
+    align-items: center;
+    border: 1px solid black;
+    padding-top: 15px;
+    
+}
